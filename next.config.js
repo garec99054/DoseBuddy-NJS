@@ -8,18 +8,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '/DoseBuddy-NJS',
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '/DoseBuddy-NJS',
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.resolve.fallback = {
-        ...config.resolve.fallback,
-        fs: false,
-        module: false,
-      };
-    }
-    return config;
-  },
+  assetPrefix: '/DoseBuddy-NJS/',
+  basePath: '/DoseBuddy-NJS',
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;

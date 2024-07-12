@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { useTranslation } from 'next-i18next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import LanguageSelector from '../components/LanguageSelector';
 import Disclaimer from '../components/Disclaimer';
 import Calculator from '../components/Calculator';
@@ -41,12 +40,12 @@ export default function Home() {
       <Head>
         <title>{t('The Dose Buddy - Insulin Dosage Calculator')}</title>
         <meta name="description" content={t('An insulin dosage calculator')} />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="icon" href="/DoseBuddy-NJS/favicon.ico" />
+        <link rel="manifest" href="/DoseBuddy-NJS/manifest.json" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta name="apple-mobile-web-app-title" content="Dose Buddy" />
-        <link rel="apple-touch-icon" href="/icon-192x192.png" />
+        <link rel="apple-touch-icon" href="/DoseBuddy-NJS/icon-192x192.png" />
       </Head>
 
       <LanguageSelector />
