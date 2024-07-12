@@ -1,0 +1,23 @@
+{
+    "This is an experimental web app made to help patients calculate insulin needs. It takes into account the insulin you need from food and the insulin for a correction dose if above your target blood sugar 😊 !": "Đây là một ứng dụng web thử nghiệm được tạo ra để giúp bệnh nhân tính toán nhu cầu insulin. Ứng dụng tính cả insulin từ thức ăn và insulin để điều chỉnh khi đường huyết vượt quá mục tiêu 😊 !",
+    "The Dose Buddy 💉 v2": "Người Bạn Liều Lượng 💉 v2",
+    "An insulin dosage calculator": "Máy tính liều lượng insulin",
+    "Carbs eaten (g)": "Carbs đã ăn (g)",
+    "Insulin to carb ratio": "Tỷ lệ insulin trên carb",
+    "Current BG (mg/dL)": "Đường huyết hiện tại (mg/dL)",
+    "Target BG (mg/dL)": "Đường huyết mục tiêu (mg/dL)",
+    "Correction factor": "Hệ số điều chỉnh",
+    "Calculate Dose": "Tính Liều",
+    "Important Disclaimer": "Tuyên bố Quan trọng",
+    "This calculator is for educational purposes only and should not replace professional medical advice. Always consult with your healthcare provider before making changes to your insulin regimen.": "Máy tính này chỉ dành cho mục đích giáo dục và không thay thế lời khuyên y tế chuyên nghiệp. Hãy luôn tham khảo ý kiến nhà cung cấp dịch vụ chăm sóc sức khỏe của bạn trước khi thay đổi chế độ insulin.",
+    "I Understand": "Tôi Hiểu",
+    "Recommended insulin dose:": "Liều insulin được khuyến nghị:",
+    "Actual calculated value:": "Giá trị tính toán thực tế:",
+    "Carb dose:": "Liều carbs:",
+    "Correction dose:": "Liều điều chỉnh:",
+    "units": "đơn vị",
+    "Enter grams": "Nhập gram",
+    "1 unit : __ g": "1 đơn vị : __ g",
+    "Enter mg/dL": "Nhập mg/dL",
+    "1 unit : __ mg/dL": "1 đơn vị : __ mg/dL"
+}
