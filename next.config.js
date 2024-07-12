@@ -4,8 +4,12 @@ const { i18n } = require('./next-i18next.config.js');
 const nextConfig = {
   i18n,
   reactStrictMode: true,
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '/DoseBuddy-NJS',
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '/DoseBuddy-NJS',
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = {
